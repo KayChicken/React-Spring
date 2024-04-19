@@ -8,15 +8,10 @@ import com.project.server.model.User;
 @Service
 public interface UserService {
     User getByUsername(String username);
-
     User save(User user);
-
     User create(User user);
-
     UserDetailsService userDetailsService();
-
     User getCurrentUser();
-
     void getAdmin();
-
+    
 }
